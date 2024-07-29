@@ -167,6 +167,7 @@ nav{
     background-image:linear-gradient(166deg, rgba(13, 12, 12, 0.219) 0%, rgba(0, 0, 0, 0.328) 21%, rgba(0, 0, 0, 0.347) 100%, rgba(2, 2, 2, 0.271) 43%, rgba(21, 21, 21, 0.294) 46%, rgba(9, 9, 9, 0.413) 100%), url("../images/modern-2.png");
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     width: 50%;
     padding: 150px 150px 150px 110px;
 }
@@ -174,7 +175,153 @@ nav{
     background-image:linear-gradient(166deg, rgba(13, 12, 12, 0.219) 0%, rgba(0, 0, 0, 0.328) 21%, rgba(0, 0, 0, 0.347) 100%, rgba(2, 2, 2, 0.271) 43%, rgba(21, 21, 21, 0.294) 46%, rgba(9, 9, 9, 0.413) 100%), url("../images/modern-3.png");
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     width: 50%;
     padding: 150px 150px 150px 110px;
 }
 /* modern industries section style end */
+
+/* about section style start */
+.about-main-container{
+    background-color: #F0F0F0;
+}
+.about-container{
+    padding: 130px 0;
+}
+.about-company{
+    background: #F40404;
+    padding: 100px 70px;
+    width: 30%;
+}
+.about-company{
+    color: white;
+    font-size: 34px;
+    font-weight: 700;
+    width: 40%;
+}
+.about-img{
+    background-image: url("../images/road.png");
+    width: 70%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-more{
+    color: #F40404;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 38px;
+}
+/* about section style end */
+
+/* sponser section style start */
+.sponser-container{
+    padding: 120px 0;
+    display: flex;
+    justify-content: space-between;
+}
+/* sponser section style end */
+
+/* more style started */
+.more-container{
+    background-color: #F0F0F0;
+}
+.more-content{
+    justify-content: space-between;
+    column-gap: 60px;
+    padding-top: 130px;
+}
+.more-box{
+    background-image:linear-gradient(166deg, rgba(13, 12, 12, 0.219) 0%, rgba(0, 0, 0, 0.328) 21%, rgba(0, 0, 0, 0.347) 100%, rgba(2, 2, 2, 0.271) 43%, rgba(21, 21, 21, 0.294) 46%, rgba(9, 9, 9, 0.413) 100%), url("../images/more-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding:80px 40px;
+}
+.more-box-1{
+    background-image:linear-gradient(166deg, rgba(13, 12, 12, 0.219) 0%, rgba(0, 0, 0, 0.328) 21%, rgba(0, 0, 0, 0.347) 100%, rgba(2, 2, 2, 0.271) 43%, rgba(21, 21, 21, 0.294) 46%, rgba(9, 9, 9, 0.413) 100%), url("../images/more-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding:80px 40px;
+}
+.more-box-2{
+    background-image:linear-gradient(166deg, rgba(13, 12, 12, 0.219) 0%, rgba(0, 0, 0, 0.328) 21%, rgba(0, 0, 0, 0.347) 100%, rgba(2, 2, 2, 0.271) 43%, rgba(21, 21, 21, 0.294) 46%, rgba(9, 9, 9, 0.413) 100%), url("../images/more-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding:80px 40px;
+}
+.more-box h3,.more-box-1 h3, .more-box-2 h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    width:70%;
+}
+.more-box button, .more-box-1 button, .more-box-2 button{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+    margin-top: 65px;
+    padding: 10px 22px;
+}
+.more-anchor{
+    text-align: right;
+    padding: 20px 0 130px 0;
+}
+.more-anchor a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 700;
+}
+.right-button{
+    font-size: 20px;
+    font-weight: 700;
+}
+/* more style end */
+.maps-img{
+    margin: 0;
+}
+.maps-img img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.area-main{
+    background-color: #F40404;
+    margin: 0;
+    border-bottom: 4px solid #FFB800;
+    position: relative;
+    bottom: 7px;
+}
+.area{
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 25px 0;
+    align-items: center;
+}
+.area h2{
+    font-size: 36px;
+    color: white;
+}
+.area h2{
+    font-size: 36px;
+    color: white;
+}
+.area-btn button{
+    padding: 13px 32px;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 2px solid white;
+}
+/* maps style end */
