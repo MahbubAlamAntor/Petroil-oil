@@ -288,7 +288,7 @@ nav{
 }
 /* more style end */
 .maps-img{
-    margin: 0;
+    margin-bottom: -10px;
 }
 .maps-img img{
     width: 100%;
@@ -300,8 +300,8 @@ nav{
     background-color: #F40404;
     margin: 0;
     border-bottom: 4px solid #FFB800;
-    position: relative;
-    bottom: 7px;
+    /* position: relative;
+    bottom: 7px; */
 }
 .area{
     width: 70%;
@@ -325,3 +325,67 @@ nav{
     border: 2px solid white;
 }
 /* maps style end */
+
+/* footer section style started */
+.footer-main-container{
+    background-color: rgba(31, 31, 31, 1);
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content{
+    width: 40%;
+}
+.footer-logo{
+    padding: 150px 0 33px 0;
+}
+.fontawesome-img{
+    color:rgba(255, 255, 255, 1);
+    padding-top: 15px;
+   
+}
+.footer-contact{
+    padding: 34px 0 150px 0;
+    display: flex;
+    gap: 1rem;
+}
+.footer-contact img{
+    border-radius: 50%;
+    background-color: red;
+    padding: 7px 9px;
+    cursor: pointer;
+}
+
+.footer-content-1{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.company h3{
+    Weight: 700;
+    Size: 16px;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 21px;
+}
+.company ul li{
+    list-style: none;
+}
+.company ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 400;
+}
+.certificate-img{
+    padding-top: 21px;
+}
+.copyright{
+    background-color: rgba(40, 40, 40, 1);
+}
+.main-container p{
+    padding: 42px 0;
+    color: rgba(108, 108, 108, 1);
+}
+/* footer section style end */
